@@ -5,7 +5,7 @@ import { Flame, Wallet, Send, Trophy, Clock, Coins, AlertCircle, CheckCircle, Lo
 import MessageBoardABI from '../../artifacts/contracts/MessageBoard.sol/MessageBoard.json'
 import './App.css'
 
-const CONTRACT_ADDRESS = "0x359d472adB1BA183B0c2e84788347B397dee7b89" // 部署后替换
+const CONTRACT_ADDRESS = "0xeAFf0f97675710408B6931f6E1654039fFD7ccd3" // 部署后替换
 
 function App() {
   const [account, setAccount] = useState('')
@@ -365,4 +365,5 @@ function App() {
 }
 
 export default App
+
 
